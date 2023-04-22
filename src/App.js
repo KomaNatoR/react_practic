@@ -1,10 +1,11 @@
 import './App.css';
+import MainMenu from './components/MainMenu';
 
 function App() {
   return (
-    <h2 className="header_title">
-      HI!
-    </h2>
+    <>
+      <MainMenu />
+    </>
   );
 }
 
