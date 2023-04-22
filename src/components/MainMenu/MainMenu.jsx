@@ -1,5 +1,4 @@
-import mainMenuItemsData from "../data/mainMenuItems.json";
-
+import mainMenuItemsData from "../../data/mainMenuItems.json";
 
 
 const MenuItem = ({ otherData }) => (
@@ -16,6 +15,9 @@ const MainMenu = () => {
             {friendList}
         </ul>
     );
+};
+MainMenu.defaultProps = {
+    friendList : [],
 };
 
 
