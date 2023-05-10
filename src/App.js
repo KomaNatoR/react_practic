@@ -1,12 +1,15 @@
 import { ThemeProvider } from '@emotion/react';
-
-import Button from "./components/Button/Button";
 import { theme } from './constants';
+
+import SharedLayout from './components/SharedLayout/SharedLayout';
+import PetRoutes from './PetRoutes';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Button />
+      <SharedLayout />
+      
+      <PetRoutes />
     </ThemeProvider>
   );
 }
