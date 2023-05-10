@@ -3,7 +3,7 @@ import { Btn } from "./button.styled";
 const Button = () => {
     return (
         <Btn>
-            Hello!
+            Learn more
         </Btn>
     )
 };
