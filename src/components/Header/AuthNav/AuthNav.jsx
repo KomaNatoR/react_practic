@@ -1,15 +1,17 @@
-import { AuthNavList } from "./authNav.styled";
+import { Link } from "react-router-dom";
+
+import { UlTag } from "./authNav.styled";
 
 const AuthNav = () => {
     return (
-        <AuthNavList>
+        <UlTag>
             <li>
-                <button type="button">Log IN</button>
+                <Link to="/login">Log IN</Link>
             </li>
             <li>
-                <button type="button">Registration</button>
+                <Link to="/registration">Registration</Link>
             </li>
-        </AuthNavList>
+        </UlTag>
     )
 };
 

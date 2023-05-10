@@ -1,12 +1,14 @@
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
+
+import { NavTag } from "./nav.styled";
 
 const Nav = () => {
     return (
-        <nav>
+        <NavTag>
             <NavLink to="/news">news</NavLink>
             <NavLink to="/notices">notices</NavLink>
             <NavLink to="/friends">friends</NavLink>
-        </nav>
+        </NavTag>
     )
 };
 
