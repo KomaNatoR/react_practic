@@ -16,11 +16,11 @@ export const UlTag = styled.ul`
         border-radius: 40px;
         border: 2px solid ${({ theme }) => theme.colors.yellow};
     }
-    li:first-child a {
+    li:first-of-type a {
         color: ${({ theme }) => theme.colors.white};
         background: ${({ theme }) => theme.colors.yellow};
     }
-    li:last-child a {
+    li:last-of-type a {
         color: ${({ theme }) => theme.colors.yellow};
     }
 `;
