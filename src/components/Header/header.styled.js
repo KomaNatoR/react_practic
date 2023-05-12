@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 
-export const HeaderContainer = styled.header`
+export const DivTag = styled.div`
     display: flex;
     align-items: baseline;
     gap: 20px;
